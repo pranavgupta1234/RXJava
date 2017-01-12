@@ -6,7 +6,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import java.util.concurrent.TimeUnit;
-import butterknife.Bind;
+
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import rx.Observable;
 import rx.Subscription;
@@ -23,15 +24,22 @@ import static android.util.Patterns.EMAIL_ADDRESS;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Bind(R.id.button)Button valid_button_indicator;
-    @Bind(R.id.email_view)EditText email;
-    @Bind(R.id.phone_view)EditText number;
-    @Bind(R.id.username_view)EditText username;
+
+    @BindView(R2.id.button) Button valid_button_indicator;
+    @BindView(R2.id.email_view) EditText email;
+    @BindView(R2.id.phone_view) EditText number;
+    @BindView(R2.id.username_view) EditText username;
+
+/*
+    Button valid_button_indicator;
+    EditText email,number,username;
+*/
 
 
     //private DisposableSubscriber<Boolean> disposableObserver = null;
 
-    //Whenever a observable subscribes to a observer through a scheduler(concurrency) then this whole package is called a subscription
+    //Whenever a observable subscribes to a observer through a scheduler(concurrency)
+    // then this whole package is called a subscription
     //A subscription means an observable is tied to an observer
 
     private Subscription _subscription;
@@ -42,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
+        /*valid_button_indicator = (Button)findViewById(R.id.button);
+        email=(EditText)findViewById(R.id.email_view);
+        number=(EditText)findViewById(R.id.phone_view);
+        username=(EditText)findViewById(R.id.username_view);*/
+
         observablesMethod1();
     }
 
@@ -49,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         /* RULES
         *This method will make the submit button lighten up only when email section contains pg
         * password field contains more than 8 characters
-        * number field contains a number between 1 and 100
+        * username contains "Pranav" (without quotes)
         * */
 
         // Debounce is coming in very handy here.
@@ -78,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         */
 
         //Func1 is the mapper function
-        Observable<Boolean> email_change_obervable = RxHelper.getTextWatcherObservable(email)
+        Observable<Boolean> email_change_observable = RxHelper.getTextWatcherObservable(email)
                 .debounce(500,TimeUnit.MILLISECONDS)
                 .observeOn(AndroidSchedulers.mainThread())
                 .map(new Func1<String, Boolean>() {
@@ -112,12 +125,12 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public Boolean call(String s) {
                         if(s.contains("Pranav")){
-                            return false;
+                            return true;
                         }
-                        return true;
+                        return false;
                     }
                 });
-        _subscription = Observable.combineLatest(email_change_obervable,username_change_observable, number_change_observable, new Func3<Boolean, Boolean, Boolean, Boolean>() {
+        _subscription = Observable.combineLatest(email_change_observable,username_change_observable, number_change_observable, new Func3<Boolean, Boolean, Boolean, Boolean>() {
             @Override
             public Boolean call(Boolean t1, Boolean t2, Boolean t3) {
                 return t1&&t2&&t3;
@@ -125,12 +138,13 @@ public class MainActivity extends AppCompatActivity {
         }).subscribe(new Action1<Boolean>() {
             @Override
             public void call(Boolean isValid) {
-                if(isValid){
+                valid_button_indicator.setEnabled(isValid);
+                /*if(isValid){
                     valid_button_indicator.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
                 }
                 else {
-                    valid_button_indicator.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
-                }
+                    valid_button_indicator.setBackgroundColor(getResources().getColor(R.color.gray));
+                }*/
             }
         });
     }
