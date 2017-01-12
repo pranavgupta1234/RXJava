@@ -2,6 +2,7 @@ package pranav.apps.amazing.rxjava;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R2.id.phone_view) EditText number;
     @BindView(R2.id.username_view) EditText username;
 */
-
+    private static String TAG = "MainActivity";
 
     Button valid_button_indicator;
     EditText email,number,username;
@@ -95,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
         //Func1 is the mapper function
         Observable<Boolean> email_change_observable = RxHelper.getTextWatcherObservable(email)
                 .debounce(500,TimeUnit.MILLISECONDS)
+                .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .map(new Func1<String, Boolean>() {
                     @Override
@@ -105,6 +107,11 @@ public class MainActivity extends AppCompatActivity {
                         return false;
                     }
                 });
+        /*
+        * combineLatest takes the emitters from all three observables and process them through Func3 to "combine the observables
+        * into single observable which is then subscribed to an observer which is Action1 and it receives those events emitted by
+        * observable and it performs action accordingly to that
+        * */
         Observable<Boolean> number_change_observable = RxHelper.getTextWatcherObservable(number)
                 .debounce(500,TimeUnit.MILLISECONDS)
                 .subscribeOn(Schedulers.io())
@@ -147,6 +154,40 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     valid_button_indicator.setBackgroundColor(getResources().getColor(R.color.gray));
                 }*/
+            }
+        });
+    }
+
+    // No validations. Just testing, if we are getting the data or not
+    private void setupObservables() {
+
+        /* Here observables are just made no mapping, no debounce etc
+        * they will simply emit events in form of strings
+        * */
+        Observable<String> emailObservable = RxHelper.getTextWatcherObservable(email);
+        Observable<String> usernameObservable = RxHelper.getTextWatcherObservable(username);
+        Observable<String> phoneObservable = RxHelper.getTextWatcherObservable(number);
+
+        // combineLatest -> It will start emitting once all the observables start emitting
+        // If you add email (no event emitted). After that if you add username, still there won't
+        // be any event emitted. Once you start adding phone, it will start emitting the events
+        // Now, even if you remove the phone number and edit email, it will keep emitting events.
+        // So, until all the observables start emitting events, combineLatest will not emit any events.
+        _subscription = Observable.combineLatest(emailObservable, usernameObservable,
+                /*Note that here in Func3 we have 3 strings which are events emitted from observable strings
+                * and we are here combining three strings into a boolean observable
+                *which is subscribed to an action Action1 which gives instruction to submit button
+                * */
+                phoneObservable, new Func3<String, String, String, Boolean>() {
+                    @Override
+                    public Boolean call(String email, String username, String phone) {
+                        Log.i(TAG, "email: " + email + ", username: " + username + ", phone: " + phone);
+                        return false;
+                    }
+                }).subscribe(new Action1<Boolean>() {
+            @Override
+            public void call(Boolean aBoolean) {
+                Log.i(TAG, "submit button enabled: " + aBoolean);
             }
         });
     }
