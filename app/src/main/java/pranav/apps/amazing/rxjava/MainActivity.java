@@ -25,15 +25,17 @@ import static android.util.Patterns.EMAIL_ADDRESS;
 public class MainActivity extends AppCompatActivity {
 
 
+/*
     @BindView(R2.id.button) Button valid_button_indicator;
     @BindView(R2.id.email_view) EditText email;
     @BindView(R2.id.phone_view) EditText number;
     @BindView(R2.id.username_view) EditText username;
+*/
 
-/*
+
     Button valid_button_indicator;
     EditText email,number,username;
-*/
+
 
 
     //private DisposableSubscriber<Boolean> disposableObserver = null;
@@ -48,12 +50,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
+        //ButterKnife.bind(this);
 
-        /*valid_button_indicator = (Button)findViewById(R.id.button);
+        valid_button_indicator = (Button)findViewById(R.id.button);
         email=(EditText)findViewById(R.id.email_view);
         number=(EditText)findViewById(R.id.phone_view);
-        username=(EditText)findViewById(R.id.username_view);*/
+        username=(EditText)findViewById(R.id.username_view);
 
         observablesMethod1();
     }
