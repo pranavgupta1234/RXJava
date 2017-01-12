@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-791a7ceb79af411b179bcd29b549fb89253048cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.inject-1-04d090c68bb3aa58b56159cfbf37eddb38f8460f.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-790f401a69899e41707aa2110932d3bee5393be8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.4\a607b0e12d2de769dc219e00b60a9b3d9e730d\rxjava-1.0.4.jar"
+        revision="25.0.1"
+        sha1="00a607b0e12d2de769dc219e00b60a9b3d9e730d">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\rxjava-1.0.4-70bd8ef282d7d6b6e025c65ff83c0e911c86f2ae.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0a7b2f229c139d847aafcef7068377246596ca96.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        revision="25.0.1"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-library-1.3-befb8721d48f7412cf505ddf53c433ffe36f09d2.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
+        revision="25.0.1"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-c30d7043f8cbf692e14d9d092d19d04c8f4035a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        revision="25.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\butterknife-7.0.1-10fcc708a9064859cf315a5eb8beb1afcdc6da6e.jar" />
+    </item>
+    <item
+        jar="C:\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.1.0-a0de4eff665b81753abe3ba3e3a1818714c326d6.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b35b1309a2b360be8f31cc0b22e67f14f15cff45.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-idling-resource\2.2.2\jars\classes.jar"
+        revision="25.0.1"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-66fdc38417d88bd5b3466c644ec3e469402b7b9a.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.5\jars\classes.jar"
+        revision="25.0.1"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-bae136eacf098dcd9c22f5ba5f30aa1b7ecc080c.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.2.2\jars\classes.jar"
+        revision="25.0.1"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-4b949d26a872a0b8fe7e62450d6b5f50d4bbea86.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b61f45eed92ac4052022cff5f0c8ed198c4579a5.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
+        revision="25.0.1"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-13cb9636424eb7a05a78312c785d080c9fb74cb7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        revision="25.0.1"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.annotation-api-1.2-e7fbe1155a8e4b1eee40f310cea9ce9702165161.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        revision="25.0.1"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\junit-4.12-e32e0212a80a59dc788d07d3e92828749c374923.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9f5313f2645211029b7a8963f1866c628486f6d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        revision="25.0.1"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javawriter-2.1.1-d03860ccfa5e7dce3fac29fc827c1275602ffe03.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        revision="25.0.1"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-integration-1.3-b94ed8c1ca11a4809fdaa69cc18d0b8508239ef5.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0d96ce667366df56783d37ee734c6e50407fe207.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2a47d09afd85223a33348f7b3f774dd667c2d933.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        revision="25.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\jsr305-2.0.1-b1f1b570ade752f27340e65c9b7d90d5521c7835.jar" />
+    </item>
+    <item
+        jar="C:\Sdk\platforms\android-25\android.jar"
+        revision="25.0.1"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-d6340723ad4e206b0125de27023d09e7c30097e4.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-131a210889bb1062930be0c314aedcee2d89ad47.jar" />
+    </item>
+    <item
+        jar="C:\Sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.1"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-00e9757ede942fca50bb85b128e500dc6dd91421.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        revision="25.0.1"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-core-1.3-cd2b6caeaa4da999eb57fe8054818561945d17f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pranav Gupta\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.24.0\42dab493b8f74b164e082f281480c9d493ff89da\rxandroid-0.24.0.jar"
+        revision="25.0.1"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="E:\AndroidStudioApps\MyAndroidApps\RXJava\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\rxandroid-0.24.0-c98702ad24651ca4b35a45fe87bdb9b97231ad47.jar" />
+    </item>
+
+</items>

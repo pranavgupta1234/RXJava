@@ -9,7 +9,7 @@ import rx.Observable;
 import rx.subjects.PublishSubject;
 
 /**
- * Created by Jay Rambhia on 5/26/16.
+ * Created by Pranav.
  */
 public class RxHelper {
 
